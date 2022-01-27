@@ -161,61 +161,35 @@ eth.sendTransaction({from: '0x45e0b5a6dc9cce0a5f8751b1b126f1cc16c4cc68', to: '0x
 0x64BdcAb69d2ab044b34A029565944cd9c9E470e8
 
 
-
-
 Ethereum has been around for some time now and many developers have ventured into the domain and created many communities. Below are some such communities that you can join.
-    * Gitter
-    * Reddit
-    * Stack Exchange
-    * KBA Official Telegram Channel
-    * KBA Facebook
-    * KBA Official LinkedIn Group
-    * Go Ethereum Discord Channel
-    * Blockchain Education Network
-    * Ethereum Community List
+    * Gitter: https://gitter.im/ethereum/home 
+    * Reddit: https://www.reddit.com/r/ethereum/ 
+    * Stack Exchange: https://ethereum.stackexchange.com/ 
+    * KBA Official Telegram Channel: https://t.me/joinchat/EvALMU17xeIpb8NPWA3NFQ 
+    * KBA Facebook: https://m.facebook.com/profile.php?id=667759250100685&ref=content_filter 
+    * KBA Official LinkedIn Group: https://www.linkedin.com/groups/13861449/ 
+    * Go Ethereum Discord Channel: https://discord.gg/24NwzHqm 
+    * Blockchain Education Network: https://www.blockchainedu.org/ 
+    * Ethereum Community List: https://ethereum.org/en/community/ 
 The below links are some points of interest, check em out.
-    * Capture the Ether
-    * ETH.Build
-    * Gitcoin
-    * Scaffold-ETH
-    * Damn Vulnerable Defi
-    * Ethereum Mainnet Statistics
-    * Cryptozombies.io
-    * Solidity by example
-    * Hardhat
+    * Capture the Ether: https://capturetheether.com/ 
+    * ETH.Build: https://eth.build/ 
+    * Gitcoin: https://gitcoin.co/ 
+    * Scaffold-ETH: https://github.com/austintgriffith/scaffold-eth 
+    * Damn Vulnerable Defi: https://www.damnvulnerabledefi.xyz/ 
+    * Ethereum Mainnet Statistics: https://www.ethernodes.org/ 
+    * Cryptozombies.io : https://cryptozombies.io/ 
+    * Solidity by example : https://solidity-by-example.org/ 
+    * Hardhat : https://hardhat.org/ 
     * Ethereum Frameworks and pre-made stacks
-    * Vyper
-    * Ethereum Learning tools
-    * Ethereum Dev Articles
-    * Ethereum Offical Doc
-    * TypeChain
+    * Vyper : https://vyper.readthedocs.io/en/stable/  
+    * Ethereum Learning tools : https://ethereum.org/en/developers/learning-tools/ 
+    * Ethereum Dev Articles : https://ethereum.org/en/developers/tutorials/ 
+    * Ethereum Offical Doc : https://ethereum.org/en/developers/docs/ 
+    * TypeChain : https://github.com/ethereum-ts/TypeChain 
 
 
 
-
-
-
-Step 1: Create genesis.json
-Step 2: geth --datadir data init genesis.json
-Step 3: geth --datadir data account new	
-		- 0x23ca7d260b15e6dcD55398232Be594a294975038
-		- data/keystore/UTC--2022-01-27T06-08-22.491381000Z--23ca7d260b15e6dcd55398232be594a294975038
-		- Tija_1818
-		- 0xbb2dd0F181521bedd9C582044BA59553a92b97f3
-		- data/keystore/UTC--2022-01-27T06-33-59.065107000Z--bb2dd0f181521bedd9c582044ba59553a92b97f3
-		- Tija_1818
-		- 0x3eA5D0659377c2611d6970566EF6eb1a4C27A808
-		- data/keystore/UTC--2022-01-27T06-36-06.547445000Z--3ea5d0659377c2611d6970566ef6eb1a4c27a808
-		- Tija_1818
-
-Step 4: Run node : geth --identity "KBA" --networkid "5777" --datadir "data" --http --http.port "8545" --unlock "0" --http.corsdomain "*" --http.api "miner,eth,net,web3,personal" --allow-insecure-unlock --nodiscover --miner.etherbase "0"
-Step 5: Start new terminal
-Step 6: connect to IPC (Check node terminal for IPC URL) “geth attach ipc:/Users/ajitjoshi/Documents/Blockchain/ethlab/data/geth.ipc”
-Step 6: start miner : miner.start()
-Step 7: Get account balance of first account : eth.getBalance(eth.accounts[0])
-Step 8: transfer fund to created account
-		eth.sendTransaction({from: “0x23ca7d260b15e6dcD55398232Be594a294975038”,to: "0x05d3450a39f3e78cC4693A864F8D5aCB8aF87329", value: “1500000000000000000"})
-eth.getTransaction("0xbcfae29e7b189c4d043b4deb96c604fc06166c91fd74f7b2e8fae0a0f013430b")
 
 Ropsten
     * https://faucet.ropsten.be/
@@ -236,4 +210,5 @@ Rinkeby
 * Goerli – https://goerli.etherscan.io/
 
 https://web3js.readthedocs.io/en/v1.2.11/
-chart
+Gas Metrics chart 
+https://docs.google.com/spreadsheets/d/1n6mRqkBz3iWcOlRem_mO09GtSKEKrAsfO7Frgx18pNU/edit#gid=0
