@@ -105,6 +105,15 @@
 ![Step 15](/assets/Step15.png)
 
 
+> Lastly to stop the node we have to close stop mining with following command and then press Ctrl + C on node termininal to stop the node. 
+
+![Step 16](/assets/Step16.png)
+
+
+![Step 17](/assets/Step17.png)
+
+> You can clean the working folder if you don't need it any longer. Next time when you want to start the node 
+
 ## Useful Links ##
 
 
